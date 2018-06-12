@@ -1,4 +1,4 @@
-sendgrid.env
 slack.env
 mailchimp.env
 robin.env
+sendgrid.env

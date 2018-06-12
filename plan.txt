@@ -1,25 +1,20 @@
 take email and first name entry
-      add email to floor.adv google group
-             https://developers.google.com/admin-sdk/directory/v1/guides/manage-group-members#create_member
-             OAuth 2 required https://developers.google.com/admin-sdk/directory/v1/guides/authorizing
-             https://developers.google.com/admin-sdk/directory/v1/reference/members/insert
-      add email to slack
-             https://github.com/ErikKalkoken/slackApiDoc/blob/master/users.admin.invite.md
-      add email to robin
-             https://docs.robinpowered.com/docs/add-new-user-to-organization
-      add email to mailchimp list
-             https://developer.mailchimp.com/documentation/mailchimp/guides/manage-subscribers-with-the-mailchimp-api/
-      add email and name to prosperworks if they're not already on?
-             https://developer.prosperworks.com/#d46f3b53-f254-07ec-7e5b-2743a74030fe
-      send transactional e-mail with welcome info and resources, personalised with name
-             https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html
-
-
-prosperworks from netlify webhook?
-       https://zapier.com/app/editor/35124911
-       https://www.netlify.com/docs/webhooks/#outgoing-webhooks-and-notifications
+  add email to floor.adv google group
+     https://developers.google.com/admin-sdk/directory/v1/guides/manage-group-members#create_member
+     OAuth 2 required https://developers.google.com/admin-sdk/directory/v1/guides/authorizing
+     https://developers.google.com/admin-sdk/directory/v1/reference/members/insert
+  IF SUCCESSFUL
+    add email to slack
+       https://github.com/ErikKalkoken/slackApiDoc/blob/master/users.admin.invite.md
+    add email to robin
+       https://docs.robinpowered.com/docs/add-new-user-to-organization
+    add email to mailchimp list
+       https://developer.mailchimp.com/documentation/mailchimp/guides/manage-subscribers-with-the-mailchimp-api/
+    send transactional e-mail with welcome info and resources, personalised with name
+       https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html
+       
+    add email and name to prosperworks if they're not already on? (Zapier)
        https://developer.prosperworks.com/#d46f3b53-f254-07ec-7e5b-2743a74030fe
-
 
 
 1. write code
