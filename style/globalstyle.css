@@ -1,0 +1,276 @@
+body{
+	font-family: 'Px', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 800;
+}
+
+p{
+	color: #F32D94;
+	letter-spacing: -0.2px;
+	line-height: 35px;
+}
+
+a{
+	color: #F32D94;
+	text-decoration: none;
+}
+
+.wrapper{
+	max-width: 1100px;
+	margin: auto;
+	padding: 10px 40px;
+}
+
+#header{
+	padding-top: 10px;
+}
+
+#logo{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 0 0 0;
+}
+
+#logo_image{
+	max-width: 300px;
+}
+
+.contact{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 0px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+.contact a{
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.contact.top{
+	text-align: right;
+}
+
+.contact.bottom{
+  text-align: left;
+  display: none;
+  width: 100%;
+	padding-bottom: 15px;
+}
+
+.icon{
+	margin: 10px 0 10px 15px;
+}
+
+.icon img{
+	vertical-align: middle;
+	max-height: 25px;
+}
+
+.nav{
+	padding: 2px 5px;
+	background-color: #F32D94;
+	cursor: pointer;
+}
+
+a.nav{
+  border-style: solid;
+	color: #ffffff;
+}
+
+#copy{
+	padding-top: 35px;
+	font-weight: 400;
+	display: inline-block;
+	width: 85%;
+	vertical-align: top;
+	padding-right: 22px;
+	line-height: 1.15;
+}
+
+.description{
+	font-size: 26px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+#copy.description{
+	padding-top: 15px;
+}
+
+.separator{
+	margin-top: 45px;
+	height: 4px;
+	background-color: #F32D94;
+}
+
+.separator.top{
+  margin-bottom: 45px;
+}
+
+#footer{
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+.footerlogo img{
+	max-height: 40px;
+}
+
+#copyright{
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	opacity: 0.9;
+}
+
+#copyright p{
+	line-height: 25px;
+}
+
+#copyright a{
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+#fourohfour{
+	padding-top: 20px;
+	padding-bottom: 200px;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: futura-pt, 'Px', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	color: #F32D94;
+	letter-spacing: -0.7px;
+	line-height: 1.15;
+	text-transform: uppercase;
+}
+
+
+
+@media (max-width: 800px){
+
+	.wrapper{
+		margin: auto;
+	}
+
+	#header{
+		padding-top: 0px;
+	}
+
+	#logo{
+		padding-top: 0px;
+	}
+
+	#copy.description{
+		padding-top: 5px;
+	}
+
+	.description{
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 660px){
+
+	.wrapper{
+		padding-top: 0;
+	}
+
+	.contact.top{
+		display: none;
+	}
+
+	.contact.bottom{
+		display: block;
+		margin-top: 15px;
+	}
+
+	.contact a{
+		font-size: 24px;
+	}
+
+	.icon{
+		margin: 20px 0 10px 12px;
+	}
+
+	.icon img{
+		vertical-align: middle;
+		max-height: 25px;
+	}
+
+	#copy{
+		width: 100%;
+		padding-right: 0;
+		padding-top: 15px;
+	}
+
+	.description{
+		font-size: 20px;
+	}
+
+	.separator{
+		margin-top: 35px;
+	}
+
+	.separator.top{
+		margin: 35px 0;
+	}
+
+	.separator.bottom{
+		margin-top: 0px;
+	}
+
+	#footer{
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+
+	#copyright{
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 375px){
+
+	#logo_image{
+		max-width: 280px;
+	}
+
+	.wrapper{
+		padding: 0 25px;
+	}
+
+	.contact{
+		display: block;
+	}
+
+	.contact a{
+		font-size: 24px;
+	}
+
+}
+
+
+	@media (max-width: 320px){
+
+		#logo_image{
+			max-width: 200px;
+		}
+
+		.contact a{
+			font-size: 22px;
+		}
+
+}
