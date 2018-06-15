@@ -14,5 +14,9 @@ module.exports = function helperSendEmail(user_email, first_name){
       firstName: first_name,
     },
   };
-  return sgMail.send(msg);
+  return sgMail.send(msg).then(function (response) {
+    console.log("then" + JSON.stringify(response.data));
+  }).catch((error) => {
+      console.log("catch" + error)
+  });
 }

@@ -1,10 +1,4 @@
 
-//helpers.
-
-// slackNotify(service, user_email){
-//     slackApi.sendMessage('justin&neef', `failed adding ${user_email} to ${service}}`)
-// }
-
 //main.js
 const sendgrid = require('./sendgrid');
 const slack = require('./slack');
@@ -17,6 +11,5 @@ function main(user_email, first_name){
   .then(() => console.log(`${user_email} added to all our services`));
 }
 
-
-main('neef@ustwo.com', 'Neef')
+main('adlowe23@gmail.com', 'Adam')
 .then(() => console.log('success'))
