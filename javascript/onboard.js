@@ -13,6 +13,11 @@ function main(user_email, first_name){
 
 }
 
+// $("#form").submit(function(){
+//
+//     window.open('https://groups.google.com/a/ustwo.com/forum/#!managemembers/floor.adv/add', '_blank');
+//
+// });
 
 // $('#submit').click(function(){
 //
@@ -23,14 +28,6 @@ function main(user_email, first_name){
 //   .then(() => console.log('success'))
 //
 // })
-//
-// $("#form").submit(function(){
-//
-//     window.open('https://groups.google.com/a/ustwo.com/forum/#!managemembers/floor.adv/add', '_blank');
-//
-// });
-
-
 
 // // GET INPUT FROM #EMAIL and #NAME
 //
