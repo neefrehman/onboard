@@ -5,11 +5,11 @@ const axios = require("axios");
 const qs = require('qs');
 const SLACK_API_KEY = process.env.SLACK_API_KEY;
 
-module.exports = function helperSlackInvite(user_email, first_name){
+module.exports = function helperSlackInvite(email, name){
 
   const params = {
 
-      "email":user_email,
+      "email":email,
       "channels":"CB29PDLF6,C4E67290V,C4E4QFSUU,C2L55QX5F,CB2D8P1B5,C2L3CAF35"
 
   };

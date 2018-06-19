@@ -1,5 +1,2 @@
-slack.env
-mailchimp.env
-robin.env
-sendgrid.env
+*.env
 /node_modules

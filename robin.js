@@ -4,14 +4,14 @@ var robinAPI = "https://api.robinpowered.com/v1.0/organizations/ustwo/users";
 const axios = require("axios");
 const ROBIN_API_KEY = process.env.ROBIN_API_KEY;
 
-module.exports = function helperRobinInvite(user_email, first_name){
+module.exports = function helperRobinInvite(email, name){
 
   axios.post (robinAPI,
     {
-      "email":user_email
+      "email":email
     },
 
-    {      
+    {
       headers: {
         'Authorization': "Access-Token " + ROBIN_API_KEY
       }
