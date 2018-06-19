@@ -25,9 +25,9 @@ axios.post (mailchimpAPI,
   }
 
 ).then(function (response) {
-  console.log("then" + JSON.stringify(response.data));
+  console.log("mailchimp: then: " + JSON.stringify(response.data));
 }).catch((error) => {
-    console.log("catch" + error)
+    console.log("mailchimp: catch: " + error)
 });
 
 }

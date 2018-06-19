@@ -15,8 +15,8 @@ module.exports = function helperSendEmail(email, name){
     },
   };
   return sgMail.send(msg).then(function (response) {
-    console.log("then" + JSON.stringify(response.data));
+    console.log("sendgrid: then: " + JSON.stringify(response.data));
   }).catch((error) => {
-      console.log("catch" + error)
+      console.log("sendgrid: catch: " + error)
   });
 }

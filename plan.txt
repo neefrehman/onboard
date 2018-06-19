@@ -27,10 +27,3 @@ take email and first name entry
        https://developer.mailchimp.com/documentation/mailchimp/guides/manage-subscribers-with-the-mailchimp-api/
     send transactional e-mail with welcome info and resources, personalised with name
        https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html
-
-
-1. write code
-  1. set up master function - this will call all of the sub functions, where each sub function is a service we want to add to
-  2. define each sub function
-  3. define how we handle failure of any subfunction
-2. deployment

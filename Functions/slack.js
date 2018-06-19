@@ -25,9 +25,9 @@ module.exports = function helperSlackInvite(email, name){
     }
 
   ).then(function (response) {
-    console.log("then" + JSON.stringify(response.data));
+    console.log("slack: then: " + JSON.stringify(response.data));
   }).catch((error) => {
-      console.log("catch" + error)
+      console.log("slack: catch: " + error)
   });
 
 }
