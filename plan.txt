@@ -12,6 +12,10 @@ take email and first name entry
        https://groups.google.com/a/ustwo.com/forum/#!managemembers/floor.adv/add
 
 
+Set permanent environment variables
+   https://medium.com/@himanshuagarwal1395/setting-up-environment-variables-in-macos-sierra-f5978369b255
+
+
 ORIGINAL PLAN:
 take email and first name entry
   add email to floor.adv google group
