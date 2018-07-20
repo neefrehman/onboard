@@ -4,6 +4,7 @@ Node scripts to onboard Adventurers
 Run via Terminal
 
 Take email and first name entry from Argument Variables
+
     add email to slack
        https://github.com/ErikKalkoken/slackApiDoc/blob/master/users.admin.invite.md
        
